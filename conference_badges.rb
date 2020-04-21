@@ -20,3 +20,8 @@ def assign_rooms(attendees)
     room_assignments
 end
 
+def printer(attendees)
+    badges.each {|badge| puts "#{badge}"}
+    room_assignments.each {|room| puts "#{room}"}
+end
+
